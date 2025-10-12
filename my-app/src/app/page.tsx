@@ -32,7 +32,7 @@ function YourMainContent() {
   useEffect(() => {
     setMcpServers([
       {
-        endpoint: "http://127.0.0.1:8080/sse"  // Change this to your local MCP server
+        endpoint: "https://miniprojectmcp.onrender.com/sse"  // Change this to your local MCP server
       }
     ]);
   }, []);
