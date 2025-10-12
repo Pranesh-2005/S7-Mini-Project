@@ -47,7 +47,7 @@ function YourMainContent() {
 
   useCopilotChatSuggestions({
     maxSuggestions: 3,
-    instructions: "Give the user a short and concise suggestion based on the conversation and your available tools. Focus on weather, GitHub, or Indian Rail queries.",
+    instructions: "Give the user a short and concise suggestion based on the conversation and your available tools. Focus on PostgreSQL mine is connected to a PostgreSQL database. Suggest actions like 'List Databases', 'List Tables', 'Database Schema', 'Table Schema', 'Execute Query'.",
   })
 
   useCopilotAction({
