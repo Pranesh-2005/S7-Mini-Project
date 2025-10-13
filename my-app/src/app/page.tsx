@@ -14,8 +14,6 @@ export default function Home() {
     <main style={{ "--copilot-kit-primary-color": themeColor } as CopilotKitCSSProperties}>
       <YourMainContent />
       <CopilotChat
-        // clickOutsideToClose={false}
-        // defaultOpen={true}
         labels={{
           title: "MCP Client",
           initial: "👋 Hi! I'm a MCP client like Claude Desktop and Cursor, I can assist you by calling MCP tools available.\n\n**Available tools:**\n- 'List Databases'\n- 'List Tables'\n- 'Database Schema'\n- 'Table Schema'\n- 'Execute Query'\nWhat can I help you with?"
