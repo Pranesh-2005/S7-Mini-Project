@@ -4,3 +4,4 @@ starlette
 uvicorn
 python-dotenv
 asyncpg
+gradio
