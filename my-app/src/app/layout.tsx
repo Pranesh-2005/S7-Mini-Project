@@ -16,8 +16,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "MCP Client",
-  description: "A client for the MCP server like Claude using CopilotKit",
+  title: "NL2SQL2NL",
+  description: "Convert natural language to SQL and back to natural language using MCP and CopilotKit.",
   manifest: "/manifest.json",
   icons: {
     icon: [
